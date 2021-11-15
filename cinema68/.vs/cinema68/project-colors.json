@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a1ef5352-889a-4319-810e-fb4136afbc14": {
+      "ProjectGuid": "a1ef5352-889a-4319-810e-fb4136afbc14",
+      "DisplayName": "cinema68 (Package)",
+      "ColorIndex": 0
+    },
+    "318828f6-6ee4-4832-8f6f-b85ffa33d94f": {
+      "ProjectGuid": "318828f6-6ee4-4832-8f6f-b85ffa33d94f",
+      "DisplayName": "cinema68",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

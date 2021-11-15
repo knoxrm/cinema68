@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="cinema68" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://cinema68/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainWindow.xbf" uri="ms-resource://cinema68/Files/MainWindow.xbf">
+				<Candidate type="Path">
+					<Value>MainWindow.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Pages">
+				<NamedResource name="Login.xbf" uri="ms-resource://cinema68/Files/Pages/Login.xbf">
+					<Candidate type="Path">
+						<Value>Pages\Login.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Startup.xbf" uri="ms-resource://cinema68/Files/Pages/Startup.xbf">
+					<Candidate type="Path">
+						<Value>Pages\Startup.xbf</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>
