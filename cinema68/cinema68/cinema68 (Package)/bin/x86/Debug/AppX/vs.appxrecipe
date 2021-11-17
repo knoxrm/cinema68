@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>c3c9f838-3226-4c7e-96a9-d9c8432e68e8</PackageIdentityName>
     <PackageIdentityPublisher>CN=knox</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\knox\Desktop\cinema68\cinema68\cinema68 %28Package%29\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68 %28Package%29\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\knox\Desktop\cinema68\cinema68\cinema68 %28Package%29\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68 %28Package%29\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>389E8C5062BE49EF15384595AAF25AEC869F7B327A1389FF2868D53149E0673B</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>c3c9f838-3226-4c7e-96a9-d9c8432e68e8_1.0.0.0_x86__m220fe4d50rnm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>c3c9f838-3226-4c7e-96a9-d9c8432e68e8_m220fe4d50rnm!App</RegisteredUserModeAppID>
@@ -27,70 +27,70 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68 %28Package%29\bin\x86\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68 %28Package%29\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-15T19:13:20.629</Modified>
+      <Modified>2021-11-17T18:43:48.454</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\App.xbf">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-11-15T18:33:40.167</Modified>
+      <Modified>2021-11-17T18:22:49.375</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\MainWindow.xbf">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\MainWindow.xbf">
       <PackagePath>MainWindow.xbf</PackagePath>
-      <Modified>2021-11-15T18:33:40.167</Modified>
+      <Modified>2021-11-17T18:22:49.375</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\Pages\Login.xbf">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\Pages\Login.xbf">
       <PackagePath>Pages\Login.xbf</PackagePath>
-      <Modified>2021-11-15T19:13:19.969</Modified>
+      <Modified>2021-11-17T18:43:47.578</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\Pages\Startup.xbf">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\Pages\Startup.xbf">
       <PackagePath>Pages\Startup.xbf</PackagePath>
-      <Modified>2021-11-15T18:33:40.168</Modified>
+      <Modified>2021-11-17T18:22:49.376</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\Redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
       <Modified>2020-12-02T04:59:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68 %28Package%29\Images\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68 %28Package%29\Images\SplashScreen.scale-200.png">
       <PackagePath>Images\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-11-14T21:48:23.546</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68 %28Package%29\Images\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68 %28Package%29\Images\LockScreenLogo.scale-200.png">
       <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2021-11-14T21:48:23.544</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68 %28Package%29\Images\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68 %28Package%29\Images\Square150x150Logo.scale-200.png">
       <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-11-14T21:48:23.548</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68 %28Package%29\Images\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68 %28Package%29\Images\Square44x44Logo.scale-200.png">
       <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-11-14T21:48:23.549</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68 %28Package%29\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68 %28Package%29\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-11-14T21:48:23.551</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68 %28Package%29\Images\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68 %28Package%29\Images\StoreLogo.png">
       <PackagePath>Images\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-11-14T21:48:23.552</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68 %28Package%29\Images\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68 %28Package%29\Images\Wide310x150Logo.scale-200.png">
       <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-11-14T21:48:23.555</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68 %28Package%29\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68 %28Package%29\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-11-15T18:00:56.857</Modified>
+      <Modified>2021-11-16T01:35:55.997</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\knox\.nuget\packages\microsoft.projectreunion.foundation\0.8.4\lib\net5.0-windows\Microsoft.ApplicationModel.Resources.Projection.dll">
       <PackagePath>cinema68\Microsoft.ApplicationModel.Resources.Projection.dll</PackagePath>
@@ -108,41 +108,41 @@
       <PackagePath>cinema68\WinRT.Runtime.dll</PackagePath>
       <Modified>2021-09-16T03:42:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\cinema68.deps.json">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\cinema68.deps.json">
       <PackagePath>cinema68\cinema68.deps.json</PackagePath>
-      <Modified>2021-11-15T18:00:55.876</Modified>
+      <Modified>2021-11-16T01:35:53.810</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\cinema68.runtimeconfig.dev.json">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\cinema68.runtimeconfig.dev.json">
       <PackagePath>cinema68\cinema68.runtimeconfig.dev.json</PackagePath>
-      <Modified>2021-11-15T18:00:56.035</Modified>
+      <Modified>2021-11-16T01:35:53.993</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\obj\x86\Debug\net5.0-windows10.0.19041.0\App.xbf">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\obj\x86\Debug\net5.0-windows10.0.19041.0\App.xbf">
       <PackagePath>cinema68\App.xbf</PackagePath>
-      <Modified>2021-11-15T18:33:40.167</Modified>
+      <Modified>2021-11-17T18:22:49.375</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\obj\x86\Debug\net5.0-windows10.0.19041.0\MainWindow.xbf">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\obj\x86\Debug\net5.0-windows10.0.19041.0\MainWindow.xbf">
       <PackagePath>cinema68\MainWindow.xbf</PackagePath>
-      <Modified>2021-11-15T18:33:40.167</Modified>
+      <Modified>2021-11-17T18:22:49.375</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\Login.xbf">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\Login.xbf">
       <PackagePath>cinema68\Pages\Login.xbf</PackagePath>
-      <Modified>2021-11-15T19:13:19.969</Modified>
+      <Modified>2021-11-17T18:43:47.578</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\Startup.xbf">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\Startup.xbf">
       <PackagePath>cinema68\Pages\Startup.xbf</PackagePath>
-      <Modified>2021-11-15T18:33:40.168</Modified>
+      <Modified>2021-11-17T18:22:49.376</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\obj\x86\Debug\net5.0-windows10.0.19041.0\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\obj\x86\Debug\net5.0-windows10.0.19041.0\apphost.exe">
       <PackagePath>cinema68\cinema68.exe</PackagePath>
-      <Modified>2021-11-15T19:13:20.064</Modified>
+      <Modified>2021-11-17T18:43:47.713</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\cinema68.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\cinema68.runtimeconfig.json">
       <PackagePath>cinema68\cinema68.runtimeconfig.json</PackagePath>
-      <Modified>2021-11-15T18:00:56.031</Modified>
+      <Modified>2021-11-16T01:35:53.988</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\cinema68.dll">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\cinema68.dll">
       <PackagePath>cinema68\cinema68.dll</PackagePath>
-      <Modified>2021-11-15T19:13:20.057</Modified>
+      <Modified>2021-11-17T18:43:47.703</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

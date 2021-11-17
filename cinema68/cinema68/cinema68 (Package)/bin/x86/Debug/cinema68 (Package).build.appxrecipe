@@ -10,64 +10,64 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>c3c9f838-3226-4c7e-96a9-d9c8432e68e8</PackageIdentityName>
     <PackageIdentityPublisher>CN=knox</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\knox\Desktop\cinema68\cinema68\cinema68 %28Package%29\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68 %28Package%29\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\knox\Desktop\cinema68\cinema68\cinema68 %28Package%29\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68 %28Package%29\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68 %28Package%29\bin\x86\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68 %28Package%29\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\App.xbf">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\MainWindow.xbf">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\MainWindow.xbf">
       <PackagePath>MainWindow.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\Pages\Login.xbf">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\Pages\Login.xbf">
       <PackagePath>Pages\Login.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\Pages\Startup.xbf">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\Pages\Startup.xbf">
       <PackagePath>Pages\Startup.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\Redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68 %28Package%29\Images\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68 %28Package%29\Images\SplashScreen.scale-200.png">
       <PackagePath>Images\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68 %28Package%29\Images\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68 %28Package%29\Images\LockScreenLogo.scale-200.png">
       <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68 %28Package%29\Images\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68 %28Package%29\Images\Square150x150Logo.scale-200.png">
       <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68 %28Package%29\Images\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68 %28Package%29\Images\Square44x44Logo.scale-200.png">
       <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68 %28Package%29\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68 %28Package%29\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68 %28Package%29\Images\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68 %28Package%29\Images\StoreLogo.png">
       <PackagePath>Images\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68 %28Package%29\Images\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68 %28Package%29\Images\Wide310x150Logo.scale-200.png">
       <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68 %28Package%29\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68 %28Package%29\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\knox\.nuget\packages\microsoft.projectreunion.foundation\0.8.4\lib\net5.0-windows\Microsoft.ApplicationModel.Resources.Projection.dll">
@@ -82,31 +82,31 @@
     <AppxPackagedFile Include="C:\Users\knox\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.21\lib\WinRT.Runtime.dll">
       <PackagePath>cinema68\WinRT.Runtime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\cinema68.deps.json">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\cinema68.deps.json">
       <PackagePath>cinema68\cinema68.deps.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\cinema68.runtimeconfig.dev.json">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\cinema68.runtimeconfig.dev.json">
       <PackagePath>cinema68\cinema68.runtimeconfig.dev.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\obj\x86\Debug\net5.0-windows10.0.19041.0\App.xbf">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\obj\x86\Debug\net5.0-windows10.0.19041.0\App.xbf">
       <PackagePath>cinema68\App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\obj\x86\Debug\net5.0-windows10.0.19041.0\MainWindow.xbf">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\obj\x86\Debug\net5.0-windows10.0.19041.0\MainWindow.xbf">
       <PackagePath>cinema68\MainWindow.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\Login.xbf">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\Login.xbf">
       <PackagePath>cinema68\Pages\Login.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\Startup.xbf">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\Startup.xbf">
       <PackagePath>cinema68\Pages\Startup.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\obj\x86\Debug\net5.0-windows10.0.19041.0\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\obj\x86\Debug\net5.0-windows10.0.19041.0\apphost.exe">
       <PackagePath>cinema68\cinema68.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\cinema68.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\cinema68.runtimeconfig.json">
       <PackagePath>cinema68\cinema68.runtimeconfig.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\cinema68.dll">
+    <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\cinema68.dll">
       <PackagePath>cinema68\cinema68.dll</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/YlpK4ZkR75fysjildvmhBZI1GvpJSx7WMHndYCriMYGvaIqqvtx51tUC8OPIAy0zJEc1mxqRKDQNmLASx1Fgg==",
+  "dgSpecHash": "waJTWDb0I2KX1mLnYwKrrPe4dSdo52RAkkwMLUA1jPr3iDfvezbBOE/5GE9tbNgb/K5/08FALy4lu9sQfGZYqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\knox\\Desktop\\cinema68\\cinema68\\cinema68 (Package)\\cinema68 (Package).wapproj",
+  "projectFilePath": "C:\\Users\\knox\\Desktop\\cinema68\\cinema68\\cinema68\\cinema68 (Package)\\cinema68 (Package).wapproj",
   "expectedPackageFiles": [
     "C:\\Users\\knox\\.nuget\\packages\\microsoft.projectreunion\\0.8.4\\microsoft.projectreunion.0.8.4.nupkg.sha512",
     "C:\\Users\\knox\\.nuget\\packages\\microsoft.projectreunion.dwrite\\0.8.4\\microsoft.projectreunion.dwrite.0.8.4.nupkg.sha512",
