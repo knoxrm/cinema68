@@ -44,8 +44,9 @@
 
         <PasswordBox x:ConnectionId='4' 
             Grid.Row="3"
-            x:Name="passwordBox" MaxLength="16"
+            x:Name="passwordBox"
             Width="300"
+            MaxLength="16"
             HorizontalAlignment="Left"
             Header="Password"
                                                          />

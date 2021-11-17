@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68 %28Package%29\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-17T18:43:48.454</Modified>
+      <Modified>2021-11-17T19:05:18.935</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,7 +44,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\Pages\Login.xbf">
       <PackagePath>Pages\Login.xbf</PackagePath>
-      <Modified>2021-11-17T18:43:47.578</Modified>
+      <Modified>2021-11-17T19:05:18.178</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\Pages\Startup.xbf">
       <PackagePath>Pages\Startup.xbf</PackagePath>
@@ -126,7 +126,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\Login.xbf">
       <PackagePath>cinema68\Pages\Login.xbf</PackagePath>
-      <Modified>2021-11-17T18:43:47.578</Modified>
+      <Modified>2021-11-17T19:05:18.178</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\Startup.xbf">
       <PackagePath>cinema68\Pages\Startup.xbf</PackagePath>
@@ -134,7 +134,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\obj\x86\Debug\net5.0-windows10.0.19041.0\apphost.exe">
       <PackagePath>cinema68\cinema68.exe</PackagePath>
-      <Modified>2021-11-17T18:43:47.713</Modified>
+      <Modified>2021-11-17T19:05:18.296</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\cinema68.runtimeconfig.json">
       <PackagePath>cinema68\cinema68.runtimeconfig.json</PackagePath>
@@ -142,7 +142,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\knox\Desktop\cinema68\cinema68\cinema68\cinema68\bin\x86\Debug\net5.0-windows10.0.19041.0\cinema68.dll">
       <PackagePath>cinema68\cinema68.dll</PackagePath>
-      <Modified>2021-11-17T18:43:47.703</Modified>
+      <Modified>2021-11-17T19:05:18.288</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
