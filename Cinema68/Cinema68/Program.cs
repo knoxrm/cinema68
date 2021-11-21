@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Cinma68
+namespace Cinema68
 {
     internal static class Program
     {

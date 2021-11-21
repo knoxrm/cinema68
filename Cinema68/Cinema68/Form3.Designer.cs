@@ -83,6 +83,11 @@ namespace Cinema68
             m_dbConnection.Close();
         }
 
+        private void listView1_Load(object sender, System.EventArgs e)
+        {
+            LoadDataFromDB();
+        }
+
         private System.Windows.Forms.ListView listView1;
     }
 }

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Cinma68
+namespace Cinema68
 {
     public partial class Form1 : Form
     {
