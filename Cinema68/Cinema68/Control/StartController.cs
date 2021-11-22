@@ -16,6 +16,7 @@ namespace Cinema68.Control
         {
             DBConnector DBConnect = new DBConnector();
             DBConnect.CreateTable(DBConnect.CreateConnection());
+            DBConnect.InsertData(DBConnect.CreateConnection());
         }
     }
 }
