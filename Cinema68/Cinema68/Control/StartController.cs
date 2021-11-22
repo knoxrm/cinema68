@@ -3,29 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using cinema68.Entity;
+using Cinema68.Entity;
 using Cinema68.Boundary;
 
 
-namespace cinema68.Control
+namespace Cinema68.Control
 {
-    class StartupController
+    class StartupController : Controller
     {
-        public void display(string disp)
+        
+        public void Initiate()
         {
-
+            DBConnector DBConnect = new DBConnector();
+            DBConnect.CreateTable(DBConnect.CreateConnection());
         }
-
-        public void login()
-        {
-
-        }
-
-        public void close()
-        {
-
-        }
-
-
     }
 }

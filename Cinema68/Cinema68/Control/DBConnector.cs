@@ -3,22 +3,26 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using cinema68.Entity;
+using Cinema68.Entity;
 using System.Data.SQLite;
 
-namespace cinema68.Control
+namespace Cinema68.Control
 {
     class DBConnector : Controller
     {
         public void CreateTable(SQLiteConnection conn)
         {
 
+
             SQLiteCommand sqlite_cmd;
-            string AccountTable = "CREATE TABLE `Account` (`name` VARCHAR(30), `email` VARCHAR(40), `password` VARCHAR(60), `is_admin` VARCHAR, PRIMARY KEY (`email`));";
-            string PaymentTable = "CREATE TABLE `Payment` (`payment_number` INT(5) NOT NULL,`card_number` INT(16),`cvv` INT(3),`expiration` DATE,`num_tickets` INT(15) DEFAULT '1',	`price` DECIMAL,`id_valid` BOOLEAN,PRIMARY KEY(`payment_number`)); ";
-            string MovieTable = "CREATE TABLE `Movie` ( `movie_ID` INT(5) NOT NULL AUTO_INCREMENT, `movie_name` VARCHAR(20), `movie_genre` TINYINT,  `movie_length` TIME DEFAULT '00:00:00',  `movie_director` VARCHAR(20),  `movie_releasedate` DATE,  `movie_datetime` DATETIME, `movie_synopsis` TEXT(500),  `movie_cover` BLOB,  PRIMARY KEY (`movie_ID`));";
-            string AccountLogTable = "CREATE TABLE `AccountLog` (`log_ID` INT,`date` DATE,`time` TIME,`event` VARCHAR,PRIMARY KEY (`log_ID`));";
+
             sqlite_cmd = conn.CreateCommand();
+
+            string AccountTable = "CREATE TABLE IF NOT EXISTS `Account` (`email` VARCHAR(40), `password` VARCHAR(60), `is_admin` VARCHAR, PRIMARY KEY (`email`));";
+            string PaymentTable = "CREATE TABLE IF NOT EXISTS `Payment` (`payment_number` INT(5) NOT NULL,`card_number` INT(16),`cvv` INT(3),`expiration` DATE,`num_tickets` INT(15) DEFAULT '1',	`price` DECIMAL,`id_valid` BOOLEAN,PRIMARY KEY(`payment_number`)); ";
+            string MovieTable = "CREATE TABLE IF NOT EXISTS `Movie` ( `movie_ID` INT(5) NOT NULL, `movie_name` VARCHAR(20), `movie_genre` TINYINT,  `movie_length` TIME DEFAULT '00:00:00',  `movie_director` VARCHAR(20),  `movie_releasedate` DATE,  `movie_datetime` DATETIME, `movie_synopsis` TEXT(500),  `movie_cover` BLOB,  PRIMARY KEY (`movie_ID`));";
+            string AccountLogTable = "CREATE TABLE IF NOT EXISTS `AccountLog` (`log_ID` INT,`date` DATE,`time` TIME,`event` VARCHAR,PRIMARY KEY (`log_ID`));";
+            
 
             // for account
             sqlite_cmd.CommandText = AccountTable;

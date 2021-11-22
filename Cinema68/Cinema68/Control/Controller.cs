@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace cinema68.Control
+namespace Cinema68.Control
 {
     class Controller
     {

@@ -45,3 +45,4 @@ C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\Cinema68\cinema68\Cin
 C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\Cinema68\cinema68\Cinema68\obj\Debug\Cinema68.exe
 C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\Cinema68\cinema68\Cinema68\obj\Debug\Cinema68.pdb
 C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\Cinema68\cinema68\Cinema68\obj\Debug\Cinema68.Boundary.AdminLandingPage.resources
+C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\Cinema68\cinema68\Cinema68\obj\Debug\Cinema68.csproj.SuggestedBindingRedirects.cache

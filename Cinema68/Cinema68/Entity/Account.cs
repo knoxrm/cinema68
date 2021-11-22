@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Net.Mail;
 
-namespace cinema68.Entity
+namespace Cinema68.Entity
 {
     class Account
     {
