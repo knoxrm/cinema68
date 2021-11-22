@@ -20,7 +20,7 @@ namespace Cinema68.Boundary
         }
         private void OpenLandingPage(Form LandingPage, object sender)
         {
-            LandingPage = new LandingPage();
+            LandingPage = new CustomerLandingPage();
             ActiveForm.Hide();
             ActiveForm = LandingPage;
             ActiveForm.BringToFront();
@@ -28,7 +28,7 @@ namespace Cinema68.Boundary
         }
         private void ToLandingPage_Click(object sender, EventArgs e)
         {
-            LandingPage LandingPage= new LandingPage();
+            CustomerLandingPage LandingPage= new CustomerLandingPage();
             OpenLandingPage(LandingPage, sender);
         }
 
