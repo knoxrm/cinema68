@@ -20,3 +20,4 @@ C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\cinema68\Cinema68\Cin
 C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\cinema68\Cinema68\Cinema68\obj\Debug\Cinema68.csproj.CopyComplete
 C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\cinema68\Cinema68\Cinema68\obj\Debug\Cinema68.exe
 C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\cinema68\Cinema68\Cinema68\obj\Debug\Cinema68.pdb
+C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\cinema68\Cinema68\Cinema68\obj\Debug\Cinema68.Boundary.AddMovieForm.resources
