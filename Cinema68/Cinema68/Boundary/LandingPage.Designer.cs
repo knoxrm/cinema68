@@ -1,9 +1,10 @@
 ﻿using System.Data;
 using System.Data.SQLite;
 using System.Windows.Forms;
+//using Cinema68.Control;
 namespace Cinema68
 {
-    partial class Form3 : Form
+    partial class LandingPage : Form
     {
         /// <summary>
         /// Required designer variable.
@@ -62,12 +63,12 @@ namespace Cinema68
 
         private void LoadDataFromDB()
         {
-            SQLiteConnection m_dbConnection = new SQLiteConnection("Data Source=MyDatabase.db");
+            SQLiteConnection m_dbConnection = new SQLiteConnection("Data Source=database.db");
             m_dbConnection.Open();
 
             using (SQLiteConnection conn = new SQLiteConnection(m_dbConnection))
             {
-                SQLiteDataAdapter sda = new SQLiteDataAdapter("Select * From Movie", conn); // MyTable (ID varchar(20), Name varchar(50) ,Score int)
+                SQLiteDataAdapter sda = new SQLiteDataAdapter("Select * From Movie", conn); 
                 DataSet ds = new DataSet();
                 sda.Fill(ds);
 
@@ -86,7 +87,7 @@ namespace Cinema68
             m_dbConnection.Close();
         }
 
-        private void listView1_Load(object sender, System.EventArgs e)
+        private void LandingPage_Load(object sender, System.EventArgs e)
         {
             LoadDataFromDB();
         }
