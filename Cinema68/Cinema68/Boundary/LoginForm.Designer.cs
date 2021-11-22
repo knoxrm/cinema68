@@ -1,10 +1,12 @@
-﻿namespace Cinema68.Boundary
+﻿using System.Windows.Forms;
+namespace Cinema68.Boundary
 {
-    partial class LoginForm
+    partial class LoginForm : Form
     {
         /// <summary>
         /// Required designer variable.
         /// </summary>
+        private Form ActiveForm;
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
@@ -88,10 +90,11 @@
             this.LoginButton.TabIndex = 6;
             this.LoginButton.Text = "Log In";
             this.LoginButton.UseVisualStyleBackColor = true;
-            this.LoginButton.Click += new System.EventHandler(this.LoginButton_Click);
+            this.LoginButton.Click += new System.EventHandler(this.ToLandingPage_Click);
             // 
             // LoginForm
             // 
+            ActiveForm = this;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);

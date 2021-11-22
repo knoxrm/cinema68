@@ -18,6 +18,19 @@ namespace Cinema68.Boundary
 
             PasswordField.PasswordChar = '*';
         }
+        private void OpenLandingPage(Form LandingPage, object sender)
+        {
+            LandingPage = new LandingPage();
+            ActiveForm.Hide();
+            ActiveForm = LandingPage;
+            ActiveForm.BringToFront();
+            ActiveForm.Show();
+        }
+        private void ToLandingPage_Click(object sender, EventArgs e)
+        {
+            LandingPage LandingPage= new LandingPage();
+            OpenLandingPage(LandingPage, sender);
+        }
 
         private void LoginForm_Load(object sender, EventArgs e)
         {
