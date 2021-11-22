@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace Cinma68
+namespace Cinema68
 {
     partial class Form2 : Form
     {
@@ -8,6 +8,7 @@ namespace Cinma68
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
+        private Form activeForm;
 
         /// <summary>
         /// Clean up any resources being used.
@@ -71,6 +72,7 @@ namespace Cinma68
             this.button1.TabIndex = 4;
             this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // maskedTextBox1
             // 
@@ -94,6 +96,7 @@ namespace Cinma68
             // 
             // Form2
             // 
+            activeForm = this;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
@@ -118,5 +121,24 @@ namespace Cinma68
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
         private System.Windows.Forms.TextBox textBox2;
+
+
+        private void OpenChildForm(Form childForm, object btnSender)
+        {
+            //Form deleteForm = activeForm;
+            childForm = new Form3();
+            activeForm.Hide();
+            activeForm = childForm;
+            //activeForm.Hide();
+            //deleteform.Close();
+            activeForm.BringToFront();
+            activeForm.Show();
+        }
+
+        private void button1_Click(object sender, System.EventArgs e)
+        {
+            Form childForm = new Form3();
+            OpenChildForm(childForm, sender);
+        }
     }
 }

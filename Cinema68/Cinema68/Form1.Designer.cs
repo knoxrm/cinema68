@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace Cinma68
+namespace Cinema68
 {
     partial class Form1 : Form
     {

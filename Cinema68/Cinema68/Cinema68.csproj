@@ -65,18 +65,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="dbconnector.cs" />
     <Compile Include="Form1.cs">
+=======
+    <Compile Include="Boundary\AddMovieForm.cs" />
+    <Compile Include="Boundary\AdminPage.cs" />
+    <Compile Include="Boundary\BoundaryObject.cs" />
+    <Compile Include="Boundary\BuyTicketForm.cs" />
+    <Compile Include="Boundary\CustomerPage.cs" />
+    <Compile Include="Boundary\Form.cs" />
+    <Compile Include="Boundary\LoginForm.cs" />
+    <Compile Include="Boundary\PageWithLogout.cs" />
+    <Compile Include="Boundary\StartupPage.cs" />
+    <Compile Include="Control\AddControl.cs" />
+    <Compile Include="Control\BuyControl.cs" />
+    <Compile Include="Control\Controller.cs" />
+    <Compile Include="Control\DBConnector.cs" />
+    <Compile Include="Control\LoginControl.cs" />
+    <Compile Include="Control\LogoutControl.cs" />
+    <Compile Include="Control\StartController.cs" />
+    <Compile Include="Entity\Account.cs" />
+    <Compile Include="Entity\AccountLog.cs" />
+    <Compile Include="Entity\Movie.cs" />
+    <Compile Include="Entity\MovieList.cs" />
+    <Compile Include="Entity\Payment.cs" />
+    <Compile Include="StartupPage.cs">
+>>>>>>> 6a7a471d2ffc701074f04cc0d2b3492a60b90f5e
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="StartupPage.Designer.cs">
+      <DependentUpon>StartupPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Form3.cs">
       <SubType>Form</SubType>
@@ -86,11 +111,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="StartupPage.resx">
+      <DependentUpon>StartupPage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>

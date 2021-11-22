@@ -11,6 +11,7 @@ C:\Users\knox\Desktop\project\Cinma68\Cinma68\bin\Debug\Cinema68.pdb
 C:\Users\knox\Desktop\project\Cinma68\Cinma68\obj\Debug\Cinema68.Properties.Resources.resources
 C:\Users\knox\Desktop\project\Cinma68\Cinma68\obj\Debug\Cinema68.exe
 C:\Users\knox\Desktop\project\Cinma68\Cinma68\obj\Debug\Cinema68.pdb
+<<<<<<< HEAD
 C:\Users\Jesus Christ\Desktop\cinema68\Cinema68\Cinema68\obj\Debug\Cinma68.Form1.resources
 C:\Users\Jesus Christ\Desktop\cinema68\Cinema68\Cinema68\obj\Debug\Cinma68.Form2.resources
 C:\Users\Jesus Christ\Desktop\cinema68\Cinema68\Cinema68\obj\Debug\Cinema68.Form3.resources
@@ -31,3 +32,52 @@ C:\Users\Jesus Christ\Desktop\cinema68\Cinema68\Cinema68\bin\Debug\EntityFramewo
 C:\Users\Jesus Christ\Desktop\cinema68\Cinema68\Cinema68\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Jesus Christ\Desktop\cinema68\Cinema68\Cinema68\bin\Debug\System.Data.SQLite.xml
 C:\Users\Jesus Christ\Desktop\cinema68\Cinema68\Cinema68\obj\Debug\Cinema68.csproj.CopyComplete
+=======
+<<<<<<< HEAD
+C:\Users\knox\Desktop\cinema68\Cinema68\Cinema68\bin\Debug\Cinema68.exe.config
+C:\Users\knox\Desktop\cinema68\Cinema68\Cinema68\bin\Debug\Cinema68.exe
+C:\Users\knox\Desktop\cinema68\Cinema68\Cinema68\bin\Debug\Cinema68.pdb
+C:\Users\knox\Desktop\cinema68\Cinema68\Cinema68\bin\Debug\EntityFramework.dll
+C:\Users\knox\Desktop\cinema68\Cinema68\Cinema68\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\knox\Desktop\cinema68\Cinema68\Cinema68\bin\Debug\System.Data.SQLite.dll
+C:\Users\knox\Desktop\cinema68\Cinema68\Cinema68\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\knox\Desktop\cinema68\Cinema68\Cinema68\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\knox\Desktop\cinema68\Cinema68\Cinema68\bin\Debug\EntityFramework.xml
+C:\Users\knox\Desktop\cinema68\Cinema68\Cinema68\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\knox\Desktop\cinema68\Cinema68\Cinema68\bin\Debug\System.Data.SQLite.xml
+C:\Users\knox\Desktop\cinema68\Cinema68\Cinema68\obj\Debug\Cinema68.csproj.AssemblyReference.cache
+C:\Users\knox\Desktop\cinema68\Cinema68\Cinema68\obj\Debug\Cinema68.csproj.SuggestedBindingRedirects.cache
+C:\Users\knox\Desktop\cinema68\Cinema68\Cinema68\obj\Debug\Cinema68.Form3.resources
+C:\Users\knox\Desktop\cinema68\Cinema68\Cinema68\obj\Debug\Cinema68.Properties.Resources.resources
+C:\Users\knox\Desktop\cinema68\Cinema68\Cinema68\obj\Debug\Cinema68.csproj.GenerateResource.cache
+C:\Users\knox\Desktop\cinema68\Cinema68\Cinema68\obj\Debug\Cinema68.csproj.CoreCompileInputs.cache
+C:\Users\knox\Desktop\cinema68\Cinema68\Cinema68\obj\Debug\Cinema68.csproj.CopyComplete
+C:\Users\knox\Desktop\cinema68\Cinema68\Cinema68\obj\Debug\Cinema68.exe
+C:\Users\knox\Desktop\cinema68\Cinema68\Cinema68\obj\Debug\Cinema68.pdb
+C:\Users\knox\Desktop\cinema68\Cinema68\Cinema68\obj\Debug\Cinema68.Form1.resources
+C:\Users\knox\Desktop\cinema68\Cinema68\Cinema68\obj\Debug\Cinema68.Form2.resources
+=======
+C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\cinema68\Cinema68\Cinema68\bin\Debug\Cinema68.exe.config
+C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\cinema68\Cinema68\Cinema68\bin\Debug\Cinema68.exe
+C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\cinema68\Cinema68\Cinema68\bin\Debug\Cinema68.pdb
+C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\cinema68\Cinema68\Cinema68\bin\Debug\EntityFramework.dll
+C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\cinema68\Cinema68\Cinema68\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\cinema68\Cinema68\Cinema68\bin\Debug\System.Data.SQLite.dll
+C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\cinema68\Cinema68\Cinema68\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\cinema68\Cinema68\Cinema68\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\cinema68\Cinema68\Cinema68\bin\Debug\EntityFramework.xml
+C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\cinema68\Cinema68\Cinema68\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\cinema68\Cinema68\Cinema68\bin\Debug\System.Data.SQLite.xml
+C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\cinema68\Cinema68\Cinema68\obj\Debug\Cinema68.csproj.AssemblyReference.cache
+C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\cinema68\Cinema68\Cinema68\obj\Debug\Cinema68.csproj.SuggestedBindingRedirects.cache
+C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\cinema68\Cinema68\Cinema68\obj\Debug\Cinma68.Form2.resources
+C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\cinema68\Cinema68\Cinema68\obj\Debug\Cinema68.Form3.resources
+C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\cinema68\Cinema68\Cinema68\obj\Debug\Cinema68.Properties.Resources.resources
+C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\cinema68\Cinema68\Cinema68\obj\Debug\Cinema68.csproj.GenerateResource.cache
+C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\cinema68\Cinema68\Cinema68\obj\Debug\Cinema68.csproj.CoreCompileInputs.cache
+C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\cinema68\Cinema68\Cinema68\obj\Debug\Cinema68.csproj.CopyComplete
+C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\cinema68\Cinema68\Cinema68\obj\Debug\Cinema68.exe
+C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\cinema68\Cinema68\Cinema68\obj\Debug\Cinema68.pdb
+C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\cinema68\Cinema68\Cinema68\obj\Debug\Cinma68.StartupPage.resources
+>>>>>>> 82ab720ea3ed5c4bac5710274627f534d53fac02
+>>>>>>> 6a7a471d2ffc701074f04cc0d2b3492a60b90f5e
