@@ -30,7 +30,6 @@
         {
             this.HeaderAddMovie = new System.Windows.Forms.Label();
             this.TitleField = new System.Windows.Forms.RichTextBox();
-            this.Ratings = new System.Windows.Forms.NumericUpDown();
             this.GenreField = new System.Windows.Forms.TextBox();
             this.ReleaseDateField = new System.Windows.Forms.DateTimePicker();
             this.HrsField = new System.Windows.Forms.NumericUpDown();
@@ -53,7 +52,7 @@
             this.ScheduleLabel = new System.Windows.Forms.Label();
             this.SynopsisLabel = new System.Windows.Forms.Label();
             this.SubmitButton = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.Ratings)).BeginInit();
+            this.RatingField = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.HrsField)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MinsField)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
@@ -79,19 +78,6 @@
             this.TitleField.TabIndex = 1;
             this.TitleField.Text = "";
             this.TitleField.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
-            // 
-            // Ratings
-            // 
-            this.Ratings.Location = new System.Drawing.Point(77, 122);
-            this.Ratings.Maximum = new decimal(new int[] {
-            10,
-            0,
-            0,
-            0});
-            this.Ratings.Name = "Ratings";
-            this.Ratings.Size = new System.Drawing.Size(120, 22);
-            this.Ratings.TabIndex = 2;
-            this.Ratings.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
             // GenreField
             // 
@@ -195,9 +181,9 @@
             this.RatingLabel.AutoSize = true;
             this.RatingLabel.Location = new System.Drawing.Point(74, 103);
             this.RatingLabel.Name = "RatingLabel";
-            this.RatingLabel.Size = new System.Drawing.Size(53, 16);
+            this.RatingLabel.Size = new System.Drawing.Size(46, 16);
             this.RatingLabel.TabIndex = 15;
-            this.RatingLabel.Text = "Ratings";
+            this.RatingLabel.Text = "Rating";
             // 
             // GenreLabel
             // 
@@ -286,11 +272,19 @@
             this.SubmitButton.UseVisualStyleBackColor = true;
             this.SubmitButton.Click += new System.EventHandler(this.SubmitButton_Click);
             // 
+            // RatingField
+            // 
+            this.RatingField.Location = new System.Drawing.Point(77, 122);
+            this.RatingField.Name = "RatingField";
+            this.RatingField.Size = new System.Drawing.Size(118, 22);
+            this.RatingField.TabIndex = 25;
+            // 
             // AddMovieForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 479);
+            this.Controls.Add(this.RatingField);
             this.Controls.Add(this.SubmitButton);
             this.Controls.Add(this.SynopsisLabel);
             this.Controls.Add(this.ScheduleLabel);
@@ -313,12 +307,10 @@
             this.Controls.Add(this.HrsField);
             this.Controls.Add(this.ReleaseDateField);
             this.Controls.Add(this.GenreField);
-            this.Controls.Add(this.Ratings);
             this.Controls.Add(this.TitleField);
             this.Controls.Add(this.HeaderAddMovie);
             this.Name = "AddMovieForm";
             this.Text = "AddMovieForm";
-            ((System.ComponentModel.ISupportInitialize)(this.Ratings)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.HrsField)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MinsField)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
@@ -332,7 +324,6 @@
 
         private System.Windows.Forms.Label HeaderAddMovie;
         private System.Windows.Forms.RichTextBox TitleField;
-        private System.Windows.Forms.NumericUpDown Ratings;
         private System.Windows.Forms.TextBox GenreField;
         private System.Windows.Forms.DateTimePicker ReleaseDateField;
         private System.Windows.Forms.NumericUpDown HrsField;
@@ -355,5 +346,6 @@
         private System.Windows.Forms.Label ScheduleLabel;
         private System.Windows.Forms.Label SynopsisLabel;
         private System.Windows.Forms.Button SubmitButton;
+        private System.Windows.Forms.TextBox RatingField;
     }
 }

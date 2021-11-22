@@ -1,4 +1,5 @@
-﻿
+﻿using System.Windows.Forms;
+
 namespace Cinema68.Boundary
 {
     partial class AdminLandingPage
@@ -7,6 +8,7 @@ namespace Cinema68.Boundary
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
+        Form ActiveForm;
 
         /// <summary>
         /// Clean up any resources being used.
@@ -63,7 +65,7 @@ namespace Cinema68.Boundary
             this.LogOutButtonFromAdm.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LogOutButtonFromAdm.Location = new System.Drawing.Point(711, 20);
             this.LogOutButtonFromAdm.Name = "LogOutButtonFromAdm";
-            this.LogOutButtonFromAdm.Size = new System.Drawing.Size(77, 24);
+            this.LogOutButtonFromAdm.Size = new System.Drawing.Size(74, 22);
             this.LogOutButtonFromAdm.TabIndex = 3;
             this.LogOutButtonFromAdm.TabStop = true;
             this.LogOutButtonFromAdm.Text = "Log Out";
@@ -76,10 +78,12 @@ namespace Cinema68.Boundary
             this.AddMovieButton.TabIndex = 4;
             this.AddMovieButton.Text = "Add Movie";
             this.AddMovieButton.UseVisualStyleBackColor = true;
+            this.AddMovieButton.Click += new System.EventHandler(this.AddMovieButton_Click);
             // 
             // AdminLandingPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            ActiveForm = this;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.AddMovieButton);
@@ -88,6 +92,7 @@ namespace Cinema68.Boundary
             this.Controls.Add(this.HeaderAdmLandingPage);
             this.Name = "AdminLandingPage";
             this.Text = "AdminLandingPage";
+            this.Load += new System.EventHandler(this.AdminLandingPage_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

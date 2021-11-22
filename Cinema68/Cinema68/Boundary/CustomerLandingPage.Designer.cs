@@ -10,6 +10,7 @@ namespace Cinema68.Boundary
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
+        Form ActiveForm;
 
         /// <summary>
         /// Clean up any resources being used.
@@ -69,15 +70,17 @@ namespace Cinema68.Boundary
             this.LogOutButtonFromCust.TabIndex = 2;
             this.LogOutButtonFromCust.TabStop = true;
             this.LogOutButtonFromCust.Text = "Log Out";
+            this.LogOutButtonFromCust.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LogOutButtonFromCust_LinkClicked);
             // 
             // listView1
             // 
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(17, 54);
+            this.listView1.Location = new System.Drawing.Point(33, 54);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(825, 401);
             this.listView1.TabIndex = 3;
             this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged_1);
             // 
             // CustomerLandingPage
             // 
@@ -115,7 +118,17 @@ namespace Cinema68.Boundary
                 {
                     ListViewItem lvi = new ListViewItem();
                     lvi.Text = row["movie_name"].ToString();
+
+                    ListViewItem lvi2 = new ListViewItem();
+                    lvi2.Text = row["movie_datetime"].ToString();
+
+                    ListViewItem lvi3 = new ListViewItem();
+                    lvi3.Text = row["movie_rating"].ToString();
+
+                   
                     listView1.Items.Add(lvi);
+                    listView1.Items.Add(lvi2);
+                    listView1.Items.Add(lvi3);
                 }
                 this.listView1.EndUpdate();
             }

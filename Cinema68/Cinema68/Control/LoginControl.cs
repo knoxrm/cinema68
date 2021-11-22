@@ -20,12 +20,16 @@ namespace Cinema68.Control
         public void Validate(Account accToValidate)
         {
 
+                   
         }
 
         public bool Submit(string email, string pwd)
         {
 
-            bool isSubmitted = false; 
+            bool isSubmitted = false;
+
+            DBConnector dBConnector = new DBConnector();
+            dBConnector.GetUser(email, pwd);
 
             // if email already exists, use getter. Must have DB with this
 

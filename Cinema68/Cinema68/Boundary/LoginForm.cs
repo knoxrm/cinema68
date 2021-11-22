@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Cinema68.Control;
 
 namespace Cinema68.Boundary
 {
@@ -32,6 +33,22 @@ namespace Cinema68.Boundary
             OpenLandingPage(LandingPage, sender);
         }
 
+        private void OpenAdminLandingPage(Form AdminPage, object sender)
+        {
+            AdminPage = new AdminLandingPage();
+            ActiveForm.Hide();
+            ActiveForm = AdminPage;
+            ActiveForm.BringToFront();
+            ActiveForm.Show();
+        }
+        private void ToAdminPage_Click(object sender, EventArgs e)
+        {
+            AdminLandingPage AdminPage = new AdminLandingPage();
+            OpenLandingPage(AdminPage, sender);
+        }
+
+
+
         private void LoginForm_Load(object sender, EventArgs e)
         {
 
@@ -54,10 +71,15 @@ namespace Cinema68.Boundary
 
         private void LoginButton_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void Header2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PasswordField_TextChanged(object sender, EventArgs e)
         {
 
         }

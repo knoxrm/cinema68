@@ -74,6 +74,7 @@ namespace Cinema68.Boundary
             this.PasswordField.Name = "PasswordField";
             this.PasswordField.Size = new System.Drawing.Size(221, 22);
             this.PasswordField.TabIndex = 4;
+            this.PasswordField.TextChanged += new System.EventHandler(this.PasswordField_TextChanged);
             // 
             // EmailField
             // 
@@ -94,8 +95,8 @@ namespace Cinema68.Boundary
             // 
             // LoginForm
             // 
-            ActiveForm = this;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            ActiveForm = this;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.LoginButton);

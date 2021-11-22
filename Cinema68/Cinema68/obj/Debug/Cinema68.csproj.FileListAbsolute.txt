@@ -32,7 +32,6 @@ C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\Cinema68\cinema68\Cin
 C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\Cinema68\cinema68\Cinema68\bin\Debug\System.Data.SQLite.EF6.dll
 C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\Cinema68\cinema68\Cinema68\bin\Debug\System.Data.SQLite.Linq.dll
 C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\Cinema68\cinema68\Cinema68\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\Cinema68\cinema68\Cinema68\obj\Debug\Cinema68.csproj.AssemblyReference.cache
 C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\Cinema68\cinema68\Cinema68\obj\Debug\Cinema68.Boundary.AddMovieForm.resources
 C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\Cinema68\cinema68\Cinema68\obj\Debug\Cinema68.Boundary.BuyTicketForm.resources
 C:\Users\aj_ch\Documents\College\CSCI 4711\Cinema68SrcCode\Cinema68\cinema68\Cinema68\obj\Debug\Cinema68.Boundary.CustomerLandingPage.resources

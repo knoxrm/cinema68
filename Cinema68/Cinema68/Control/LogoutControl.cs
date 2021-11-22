@@ -10,8 +10,13 @@ namespace Cinema68.Control
 {
     class LogoutControl : Controller
     {
-        public void LogOut(string logOutCreds)
+        public void LogOut()
         {
+            DBConnector DBConnect = new DBConnector();
+            DBConnect.DropTables(DBConnect.CreateConnection());
+
+            StartupController StartController = new StartupController();
+            StartController.Initiate();
 
         }
     }

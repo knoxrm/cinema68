@@ -9,13 +9,8 @@ namespace Cinema68.Control
 {
     class BuyControl : Controller
     {
-        public bool submit(Payment paymnt)
-        {
-            bool isValidated = false;
-
-            return isValidated;
-        }
-
+       
+        
         public void Buy(string x, string y, string z)
         {
 

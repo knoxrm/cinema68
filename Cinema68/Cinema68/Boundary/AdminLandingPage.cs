@@ -26,5 +26,24 @@ namespace Cinema68.Boundary
         {
 
         }
+
+        private void AdminLandingPage_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void OpenAddMovieForm(Form AddMovie, object sender)
+        {
+            AddMovie = new AddMovieForm();
+            ActiveForm.Hide();
+            ActiveForm = AddMovie;
+            ActiveForm.BringToFront();
+            ActiveForm.Show();
+        }
+        private void AddMovieButton_Click(object sender, EventArgs e)
+        {
+            AddMovieForm AddMovie = new AddMovieForm();
+            OpenAddMovieForm(AddMovie, sender);
+        }
     }
 }
