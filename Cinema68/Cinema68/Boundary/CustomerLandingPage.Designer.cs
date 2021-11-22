@@ -35,6 +35,7 @@ namespace Cinema68.Boundary
             this.HeaderCustLandingPage = new System.Windows.Forms.Label();
             this.WelcomeCust = new System.Windows.Forms.Label();
             this.LogOutButtonFromCust = new System.Windows.Forms.LinkLabel();
+            this.listView1 = new System.Windows.Forms.ListView();
             this.SuspendLayout();
             // 
             // HeaderCustLandingPage
@@ -64,16 +65,26 @@ namespace Cinema68.Boundary
             this.LogOutButtonFromCust.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LogOutButtonFromCust.Location = new System.Drawing.Point(827, 17);
             this.LogOutButtonFromCust.Name = "LogOutButtonFromCust";
-            this.LogOutButtonFromCust.Size = new System.Drawing.Size(77, 24);
+            this.LogOutButtonFromCust.Size = new System.Drawing.Size(74, 22);
             this.LogOutButtonFromCust.TabIndex = 2;
             this.LogOutButtonFromCust.TabStop = true;
             this.LogOutButtonFromCust.Text = "Log Out";
+            // 
+            // listView1
+            // 
+            this.listView1.HideSelection = false;
+            this.listView1.Location = new System.Drawing.Point(17, 54);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(825, 401);
+            this.listView1.TabIndex = 3;
+            this.listView1.UseCompatibleStateImageBehavior = false;
             // 
             // CustomerLandingPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(913, 499);
+            this.Controls.Add(this.listView1);
             this.Controls.Add(this.LogOutButtonFromCust);
             this.Controls.Add(this.WelcomeCust);
             this.Controls.Add(this.HeaderCustLandingPage);
@@ -99,16 +110,14 @@ namespace Cinema68.Boundary
                 DataSet ds = new DataSet();
                 sda.Fill(ds);
 
-                //listView1.BeginUpdate();
-                //foreach (DataRow row in ds.Tables[0].Rows)
-                //{
-                //    ListViewItem lvi = new ListViewItem();
-                //    lvi.Text = row["ID"].ToString();
-                //    lvi.SubItems.Add(row["movie_name"].ToString());
-                //    lvi.SubItems.Add(row["movie_rating"].ToString());
-                //    listView1.Items.Add(lvi);
-                //}
-                //this.listView1.EndUpdate();
+                listView1.BeginUpdate();
+                foreach (DataRow row in ds.Tables[0].Rows)
+                {
+                    ListViewItem lvi = new ListViewItem();
+                    lvi.Text = row["movie_name"].ToString();
+                    listView1.Items.Add(lvi);
+                }
+                this.listView1.EndUpdate();
             }
 
             m_dbConnection.Close();
@@ -122,5 +131,6 @@ namespace Cinema68.Boundary
         private Label HeaderCustLandingPage;
         private Label WelcomeCust;
         private LinkLabel LogOutButtonFromCust;
+        private ListView listView1;
     }
 }

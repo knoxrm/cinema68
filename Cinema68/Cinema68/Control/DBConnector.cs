@@ -183,10 +183,12 @@ namespace Cinema68.Control
             return sqlite_conn;
         }
 
-        public void GetUser(string email, string pwd)
+        public void GetUser(string email)
         {
-            CreateConnection();
-            CreateConnection().Open();
+         
+            
+
+
         }
     }
 }
