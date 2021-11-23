@@ -7,7 +7,7 @@ using Cinema68.Entity;
 
 namespace Cinema68.Control
 {
-    class BuyControl : Controller
+    class BuyControl 
     {
        
         

@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Cinema68.Control;
+using Cinema68.Entity;
 
 namespace Cinema68.Boundary
 {
@@ -21,11 +22,18 @@ namespace Cinema68.Boundary
         }
         private void OpenLandingPage(Form LandingPage, object sender)
         {
-            LandingPage = new CustomerLandingPage();
-            ActiveForm.Hide();
-            ActiveForm = LandingPage;
-            ActiveForm.BringToFront();
-            ActiveForm.Show();
+            LoginControl logincontrol = new LoginControl();
+            Account a = new Account(EmailField.Text, PasswordField.Text);
+            if (logincontrol.Validate(a)== true)
+            {
+                ActiveForm = this;
+                LandingPage = new CustomerLandingPage();
+                ActiveForm.Hide();
+                ActiveForm = LandingPage;
+                ActiveForm.BringToFront();
+                ActiveForm.Show();
+            }
+            
         }
         private void ToLandingPage_Click(object sender, EventArgs e)
         {

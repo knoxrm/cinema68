@@ -10,7 +10,7 @@ namespace Cinema68.Boundary
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
-        Form ActiveForm;
+        private Form ActiveForm;
 
         /// <summary>
         /// Clean up any resources being used.

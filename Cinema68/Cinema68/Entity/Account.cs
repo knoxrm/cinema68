@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Net.Mail;
+using System.Windows.Forms;
 
 namespace Cinema68.Entity
 {
@@ -12,6 +13,13 @@ namespace Cinema68.Entity
         private string password;
         private string email;
         private bool isAdmin;
+
+        public Account(string email, string pword)
+        {
+            setPwd(pword);
+            setEmail(email);
+            setAdmin(email);
+        }
 
         public string getPwd()
         {
@@ -30,24 +38,7 @@ namespace Cinema68.Entity
 
         public void setEmail(string Email)
         {
-            try
-            {
-                var addr = new MailAddress(Email);
-
-                Email = addr.Address;
-
-                if (Email.Contains("@augusta.edu"))
-                    isAdmin = true;
-
-
-                else
-                    isAdmin = false;
-            }
-
-            catch
-            {
-                throw new ArgumentException("Invalid email address");
-            }
+            this.email = Email;
 
         }
 
@@ -56,5 +47,14 @@ namespace Cinema68.Entity
             return isAdmin;
         }
 
+        public void setAdmin(string Email)
+        {
+
+            if (Email.Contains("@augusta.edu"))
+                isAdmin = true;
+
+            else
+                isAdmin = false;
+        }
     }
 }

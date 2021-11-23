@@ -8,29 +8,30 @@ namespace Cinema68.Entity
 {
 	class Payment
 	{
-		private double CardNumber;
-		private double CVVNumber;
+		private int CardNumber;
+		private int CVVNumber;
 		private string Name;
 		private DateTime ExpirationDate;
 		private string email;
-		public double getCardNumber()
+		public int getCardNumber()
 		{
 			return CardNumber;
 		}
-		public void setCardNumber(double CardNum)
+		public void setCardNumber(int CardNum)
 		{
-			if (CardNumber == 16 || CardNumber == 15)
+			if (CardNumber.ToString().Length == 16 || CardNumber.ToString().Length == 15)
 				CardNumber = CardNum;
 			else
 				throw new ArgumentException("Invalid Card Number");
 		}
-		public double getCVVNumber()
+		public int getCVVNumber()
 		{
 			return CVVNumber;
 		}
-		public void setCVVNumber(double CVVNum)
+		public void setCVVNumber(int CVVNum)
 		{
-			if (CVVNumber == 3)
+            
+			if (CVVNumber.ToString().Length == 3)
 				CVVNumber = CVVNum;
 			else
 				throw new ArgumentException("Invalid CVV Number");
@@ -57,12 +58,6 @@ namespace Cinema68.Entity
 			else
 				throw new ArgumentException("Invalid Expiration Date");
 		}
-		public string getEmail()
-		{
-			Account currAcc = new Account();
-			return currAcc.getEmail();
-
-		}
-
+		
 	}
 }

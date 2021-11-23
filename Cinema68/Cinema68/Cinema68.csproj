@@ -97,7 +97,6 @@
     </Compile>
     <Compile Include="Control\AddControl.cs" />
     <Compile Include="Control\BuyControl.cs" />
-    <Compile Include="Control\Controller.cs" />
     <Compile Include="Control\DBConnector.cs" />
     <Compile Include="Control\LoginControl.cs" />
     <Compile Include="Control\LogoutControl.cs" />

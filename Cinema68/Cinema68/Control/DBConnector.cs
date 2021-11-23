@@ -9,7 +9,7 @@ using System.Security.Cryptography;
 
 namespace Cinema68.Control
 {
-    class DBConnector : Controller
+    class DBConnector
     {
         public void DropTables(SQLiteConnection conn)
         {
@@ -74,6 +74,7 @@ namespace Cinema68.Control
 
         public void InsertData(SQLiteConnection conn)
         {
+            conn.Open();
             SQLiteCommand sqlite_cmd;
             sqlite_cmd = conn.CreateCommand();
 
@@ -126,41 +127,42 @@ namespace Cinema68.Control
             sqlite_cmd.CommandText = "SELECT * FROM Account";
 
             sqlite_datareader = sqlite_cmd.ExecuteReader();
+            string myreaderAccount;
             while (sqlite_datareader.Read())
             {
-                string myreader = sqlite_datareader.GetString(0);
-                Console.WriteLine(myreader);
+                myreaderAccount = sqlite_datareader.GetString(0);
             }
 
             sqlite_cmd = conn.CreateCommand();
             sqlite_cmd.CommandText = "SELECT * FROM Payment";
 
             sqlite_datareader = sqlite_cmd.ExecuteReader();
+            string myreaderPayment;
             while (sqlite_datareader.Read())
             {
-                string myreader = sqlite_datareader.GetString(0);
-                Console.WriteLine(myreader);
+                myreaderPayment = sqlite_datareader.GetString(0);
             }
 
             sqlite_cmd = conn.CreateCommand();
             sqlite_cmd.CommandText = "SELECT * FROM Movie";
 
             sqlite_datareader = sqlite_cmd.ExecuteReader();
+            string myreaderMovie;
             while (sqlite_datareader.Read())
             {
-                string myreader = sqlite_datareader.GetString(0);
-                Console.WriteLine(myreader);
+                myreaderMovie = sqlite_datareader.GetString(0);
             }
 
             sqlite_cmd = conn.CreateCommand();
             sqlite_cmd.CommandText = "SELECT * FROM AccountLog";
 
             sqlite_datareader = sqlite_cmd.ExecuteReader();
+            string myreaderAccountLog;
             while (sqlite_datareader.Read())
             {
-                string myreader = sqlite_datareader.GetString(0);
-                Console.WriteLine(myreader);
+                myreaderAccountLog = sqlite_datareader.GetString(0);
             }
+
 
 
             conn.Close();
@@ -177,9 +179,9 @@ namespace Cinema68.Control
             {
                 sqlite_conn.Open();
             }
-            catch (Exception ex)
+            catch 
             {
-                throw new Exception("Connection not work. ");
+                throw new Exception("Connection does not work. ");
             }
             return sqlite_conn;
         }
@@ -203,10 +205,37 @@ namespace Cinema68.Control
             {
                 myreader = sqlite_datareader.GetString(0);
             }
-
+            sqlite_conn.Close();
             return myreader;
         }
 
+        public bool ValidateUser(string email, string pwd)
+        {
+            string hashedData = ComputeSha256Hash(pwd);
+            using (SQLiteConnection sqlite_conn = new SQLiteConnection("Data Source=database.db; Version = 3; New = True; Compress = True; "))
+            {
+                sqlite_conn.Open();
+                SQLiteCommand sqlite_cmd;
+                SQLiteDataReader sqlite_datareader;
+                
+                using (sqlite_cmd = sqlite_conn.CreateCommand())
+                {
+                    sqlite_cmd.CommandText = "SELECT EXISTS(SELECT 1 FROM Account WHERE email = '" + email + "'AND password = '" + hashedData + "');";
+
+                    int n = Convert.ToInt32(sqlite_cmd.ExecuteScalar());
+                    sqlite_datareader = sqlite_cmd.ExecuteReader();
+
+                    if (n == 1)
+                    {
+                        sqlite_conn.Close();
+                        return true;
+                    }
+                    sqlite_conn.Close();
+                    return false;
+                }
+            }
+            
+        }
         public string ComputeSha256Hash(string pwd)
         {
             // Create a SHA256   

@@ -5,22 +5,27 @@ using System.Text;
 using System.Threading.Tasks;
 using Cinema68.Entity;
 using Cinema68.Boundary;
+using System.Windows.Forms;
 
 namespace Cinema68.Control
 {
-    class LoginControl : Controller
+    class LoginControl
     {
-        Account acct = new Account();
-        public void Login()
+
+        public bool Validate(Account accToValidate)
         {
-
-
-        }
-
-        public void Validate(Account accToValidate)
-        {
-
-                   
+            DBConnector dbconnector = new DBConnector();
+            string email = accToValidate.getEmail();
+            string pwd = accToValidate.getPwd();
+            if (dbconnector.ValidateUser(email, pwd))
+            {
+                return true;
+            }
+            else
+            {
+                MessageBox.Show("Invalid Credentials");
+                return false;
+            }
         }
 
         public bool Submit(string email, string pwd)
@@ -37,12 +42,12 @@ namespace Cinema68.Control
             // else if email already exists but password is incorrect, 
 
             // else, set a new account
-            acct.setEmail(email);
-            acct.setPwd(pwd);
+            
             isSubmitted = true;
-            
 
-            
+
+            Account acct = new Account(email, pwd);
+
             return isSubmitted;
         }
     }

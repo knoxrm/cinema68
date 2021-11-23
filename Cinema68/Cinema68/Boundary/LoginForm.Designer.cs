@@ -42,9 +42,10 @@ namespace Cinema68.Boundary
             // 
             this.Header2.AutoSize = true;
             this.Header2.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Header2.Location = new System.Drawing.Point(175, 27);
+            this.Header2.Location = new System.Drawing.Point(131, 22);
+            this.Header2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Header2.Name = "Header2";
-            this.Header2.Size = new System.Drawing.Size(435, 85);
+            this.Header2.Size = new System.Drawing.Size(349, 69);
             this.Header2.TabIndex = 0;
             this.Header2.Text = "Cinema 68";
             this.Header2.Click += new System.EventHandler(this.Header2_Click);
@@ -52,9 +53,10 @@ namespace Cinema68.Boundary
             // EmailLabel
             // 
             this.EmailLabel.AutoSize = true;
-            this.EmailLabel.Location = new System.Drawing.Point(189, 128);
+            this.EmailLabel.Location = new System.Drawing.Point(142, 104);
+            this.EmailLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.EmailLabel.Name = "EmailLabel";
-            this.EmailLabel.Size = new System.Drawing.Size(41, 16);
+            this.EmailLabel.Size = new System.Drawing.Size(32, 13);
             this.EmailLabel.TabIndex = 2;
             this.EmailLabel.Text = "Email";
             this.EmailLabel.Click += new System.EventHandler(this.label2_Click_1);
@@ -62,32 +64,36 @@ namespace Cinema68.Boundary
             // PasswordLabel
             // 
             this.PasswordLabel.AutoSize = true;
-            this.PasswordLabel.Location = new System.Drawing.Point(189, 215);
+            this.PasswordLabel.Location = new System.Drawing.Point(142, 175);
+            this.PasswordLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.PasswordLabel.Name = "PasswordLabel";
-            this.PasswordLabel.Size = new System.Drawing.Size(67, 16);
+            this.PasswordLabel.Size = new System.Drawing.Size(53, 13);
             this.PasswordLabel.TabIndex = 3;
             this.PasswordLabel.Text = "Password";
             // 
             // PasswordField
             // 
-            this.PasswordField.Location = new System.Drawing.Point(192, 234);
+            this.PasswordField.Location = new System.Drawing.Point(144, 190);
+            this.PasswordField.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PasswordField.Name = "PasswordField";
-            this.PasswordField.Size = new System.Drawing.Size(221, 22);
+            this.PasswordField.Size = new System.Drawing.Size(167, 20);
             this.PasswordField.TabIndex = 4;
             this.PasswordField.TextChanged += new System.EventHandler(this.PasswordField_TextChanged);
             // 
             // EmailField
             // 
-            this.EmailField.Location = new System.Drawing.Point(190, 147);
+            this.EmailField.Location = new System.Drawing.Point(142, 119);
+            this.EmailField.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.EmailField.Name = "EmailField";
-            this.EmailField.Size = new System.Drawing.Size(216, 22);
+            this.EmailField.Size = new System.Drawing.Size(163, 20);
             this.EmailField.TabIndex = 5;
             // 
             // LoginButton
             // 
-            this.LoginButton.Location = new System.Drawing.Point(306, 300);
+            this.LoginButton.Location = new System.Drawing.Point(230, 244);
+            this.LoginButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.LoginButton.Name = "LoginButton";
-            this.LoginButton.Size = new System.Drawing.Size(179, 60);
+            this.LoginButton.Size = new System.Drawing.Size(134, 49);
             this.LoginButton.TabIndex = 6;
             this.LoginButton.Text = "Log In";
             this.LoginButton.UseVisualStyleBackColor = true;
@@ -95,16 +101,16 @@ namespace Cinema68.Boundary
             // 
             // LoginForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            ActiveForm = this;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.LoginButton);
             this.Controls.Add(this.EmailField);
             this.Controls.Add(this.PasswordField);
             this.Controls.Add(this.PasswordLabel);
             this.Controls.Add(this.EmailLabel);
             this.Controls.Add(this.Header2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "LoginForm";
             this.Text = "LoginForm";
             this.Load += new System.EventHandler(this.LoginForm_Load);

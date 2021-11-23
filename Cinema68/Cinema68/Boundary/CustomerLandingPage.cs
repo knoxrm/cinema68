@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Cinema68.Control;
 
 namespace Cinema68.Boundary
 {
@@ -59,7 +60,13 @@ namespace Cinema68.Boundary
 
         private void LogOutButtonFromCust_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            StartupPage startuppage = new StartupPage();
+            ActiveForm = this;
+            ActiveForm.Hide();
+            ActiveForm = startuppage;
+            ActiveForm.BringToFront();
+            ActiveForm.Show();
+            
         }
 
 
@@ -70,6 +77,9 @@ namespace Cinema68.Boundary
             ActiveForm = CustomerLanding;
             ActiveForm.BringToFront();
             ActiveForm.Show();
+
+            LogoutControl logoutcontroll = new LogoutControl();
+            logoutcontroll.LogOut();
         }
         private void ToCustomerLandingPage_Click(object sender, EventArgs e)
         {

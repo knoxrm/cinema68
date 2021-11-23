@@ -7,7 +7,7 @@ using Cinema68.Entity;
 
 namespace Cinema68.Control
 {
-    class AddControl : Controller
+    class AddControl 
     {
         public void AddMovie(string Movie)
         {

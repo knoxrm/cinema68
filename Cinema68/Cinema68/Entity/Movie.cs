@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cinema68.Entity
 {
-    class Movie : Account
+    class Movie
     {
         string movie_director { get; set; }
         DateTime movie_releasedate { get; set; }
